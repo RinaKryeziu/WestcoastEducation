@@ -1,0 +1,38 @@
+[
+  {
+    "courseId": "PRO110",
+    "length": 56,
+    "title": "Programmering med C#/.Net",
+    "startDate": "2024-10-09T15:19:55.74705+02:00",
+    "endDate": "2024-12-04T15:19:55.74705+01:00",
+    "location": true,
+    "locationInfo": "Klassrum"
+  },
+  {
+    "courseId": "DAT101",
+    "length": 22,
+    "title": "Databasteknik",
+    "startDate": "2024-12-04T15:19:55.7746+01:00",
+    "endDate": "2024-12-26T15:19:55.7746+01:00",
+    "location": true,
+    "locationInfo": "Klassrum"
+  },
+  {
+    "courseId": "PRO202",
+    "length": 50,
+    "title": "Programmering med C#/.Net fortsättning",
+    "startDate": "2024-12-26T15:19:55.774602+01:00",
+    "endDate": "2025-02-14T15:19:55.774602+01:00",
+    "location": true,
+    "locationInfo": "Klassrum"
+  },
+  {
+    "courseId": "LED332",
+    "length": 14,
+    "title": "Ledarskap och organisation fortsättning",
+    "startDate": "2025-02-14T15:19:55.774602+01:00",
+    "endDate": "2025-02-28T15:19:55.774602+01:00",
+    "location": false,
+    "locationInfo": "Distans"
+  }
+]
