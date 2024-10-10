@@ -5,27 +5,22 @@ class Program
     static void Main()
     {
         Courses courses = new Courses();
-        var courseList = new List<Courses>();
 
         Courses course1 = new Courses();
         course1.Find ("PRO110");
         courses.Add(course1);
-        courseList.Add(course1);
 
         Courses course2 = new Courses();
         course2.Find ("DAT101");
         courses.Add(course2);
-        courseList.Add(course2);
 
         Courses course3 = new Courses();
         course3.Find ("PRO202");
         courses.Add(course3);
-        courseList.Add(course3);
 
         Courses course4 = new Courses();
         course4.Find ("LED332");
         courses.Add(course4);
-        courseList.Add(course4);
 
         Console.WriteLine("");
         Console.ForegroundColor = ConsoleColor.Cyan;
@@ -41,8 +36,7 @@ class Program
 
         //JSON
         var path = string.Concat(Environment.CurrentDirectory + "/Data/course.json");
-
-        Json.WriteJson(path, courseList);
+        Json.WriteJson(path, courses.courses);
 
         var coursesFromFile = Json.ReadJson(path);
 
